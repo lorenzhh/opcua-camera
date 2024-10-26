@@ -4,11 +4,10 @@ apt update
 apt upgrade
 
 
-
-sudo apt install python3.13 -y
-sudo apt install python3.13-venv -y
+sudo apt install -y python3.13 
+sudo apt install -y python3.13-venv 
 sudo apt install -y libgl1-mesa-glx
-sudo apt install python3.13-tk
+sudo apt install -y python3.13-tk
 
 sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3.13 get-pip.py
